@@ -324,7 +324,7 @@ if ("HNOJ@?RC" != I)
 ​		主程序，采用了**B/S架构**，可运行特定关键字的今日头条信息爬取，在终端输入python app.py后，打开本地测试ip后，结果如下：
 
 ###### 
-![](toutiao_crawler\pic\image-20250629164754825.png)
+<img src="toutiao_crawler\pic\image-20250629164754825.png">
 
 ​	本代码集成了今日头条的内容爬取、对保存到本地数据库的爬虫数据的可视化分析，具体包括近30日发布的相关主题帖子的数目分析、爬取的帖子发布者的粉丝量排行信息、爬取的帖子的内容的摘要词云图、帖子评论内容的词云图。	
 
@@ -342,13 +342,13 @@ if ("HNOJ@?RC" != I)
 result = self.keyword_spider("keyword",page)
 ```
 
-![](toutiao_crawler\pic\QQ图片20250629165552.png)
+<img src="toutiao_crawler\pic\QQ图片20250629165552.png">
 
 ​			
 
 ​		可以看到数据库中保存的爬取数据
 
-![](toutiao_crawler\pic\9A5@BZD349~J785CGZ8KGYR.png)
+<img src="toutiao_crawler\pic\9A5@BZD349~J785CGZ8KGYR.png">
 
 
 
@@ -366,4 +366,4 @@ result = self.keyword_spider("keyword",page)
 
 ​		点击本地测试ip后，输入想爬取的相关主题内容即可，具体效果如下：
 
-![](toutiao_crawler\pic\QQ图片20250629170318.png)
+<img src = "toutiao_crawler\pic\QQ图片20250629170318.png">
